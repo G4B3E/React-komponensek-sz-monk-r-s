@@ -1,13 +1,85 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* képek */
+#dj{
+  width: 50%;
+  height: auto;
+  padding: 1%;
+}
+#petrik{
+  width: 70%;
+  height: auto;
+  margin: 1%;  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* oldalak div */
+
+#aaa{
+  margin: 20px;
+}
+
+#Szakmait{
+  text-align: right;
+  margin: 10px;
+
+}
+#Fooldal{
+  text-align: center;
+}
+
+/* menu navbar */
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+#menu li {
+  float: left;
+}
+#menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#menu li a:hover {
+  background-color: #797979;
+}
+
+/* urlap kapcsolatok*/
+#leiras{
+  width: 100%;
+}
+
+#urlap{
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  width: 20%;
+  margin: auto;
+  margin-top: 3%;
+  padding: 1%;
+  
+}
+#centerh1{
+  text-align: center;
+  margin: 3%;
+}
+
+
+body{
+  margin: 0;
+}
+
+
+footer{
+  width: 100%;
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 1px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
